@@ -22,7 +22,9 @@ const teamName = computed(() => teams.setTeamTurnName())
       <input v-model="teams.team2" placeholder="Time 2" class="text-center" />
     </h1>
 
-    <div class="md:flex w-full justify-center items-center text-3xl">
+    <div
+      class="md:flex w-full justify-center items-center text-center text-3xl"
+    >
       <hr class="grow border-2 border-green-500" />
 
       <h2 v-if="pickedMap" class="p-4">
@@ -31,7 +33,7 @@ const teamName = computed(() => teams.setTeamTurnName())
         <span class="underline"> {{ pickedMap }}</span>
       </h2>
 
-      <h2 v-else class="p-4 text-center">
+      <h2 v-else class="p-4">
         É a vez do time
 
         <span class="underline">{{ teamName }}</span>

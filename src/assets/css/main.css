@@ -18,7 +18,7 @@
 }
 
 body {
-  @apply min-h-screen bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:flex lg:place-items-center bg-no-repeat bg-fixed bg-cover p-16;
+  @apply bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:flex lg:place-items-center bg-no-repeat bg-fixed bg-cover py-16;
 
   background-image: url('@/assets/images/background.jpg');
   font-family: 'Bebas Neue', sans-serif;
@@ -28,7 +28,7 @@ body {
 }
 
 #app {
-  @apply mx-auto max-w-[1280px] font-normal;
+  @apply mx-auto max-w-[1280px] font-normal px-16;
 }
 
 input {
