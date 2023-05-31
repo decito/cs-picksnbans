@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "yoavbls.pretty-ts-errors"
+  ]
+}

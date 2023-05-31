@@ -1,0 +1,47 @@
+.card.de_inferno::before {
+  background-image: url('@/assets/images/de_inferno.jpg');
+}
+
+.card.de_anubis::before {
+  background-image: url('@/assets/images/de_anubis.jpg');
+}
+
+.card.de_ancient::before {
+  background-image: url('@/assets/images/de_ancient.jpg');
+}
+
+.card.de_mirage::before {
+  background-image: url('@/assets/images/de_mirage.jpg');
+}
+
+.card.de_nuke::before {
+  background-image: url('@/assets/images/de_nuke.jpg');
+}
+
+.card.de_cache::before {
+  background-image: url('@/assets/images/de_cache.jpg');
+}
+
+.card.de_dust2::before {
+  background-image: url('@/assets/images/de_dust2.jpg');
+}
+
+.card.de_overpass::before {
+  background-image: url('@/assets/images/de_overpass.jpg');
+}
+
+.card.de_vertigo::before {
+  background-image: url('@/assets/images/de_vertigo.jpg');
+}
+
+.card.de_cache::before {
+  background-image: url('@/assets/images/de_cache.jpg');
+}
+
+.card.de_train::before {
+  background-image: url('@/assets/images/de_train.jpg');
+}
+
+.card.de_cbbl::before {
+  background-image: url('@/assets/images/de_cbbl.jpg');
+}

@@ -1,0 +1,47 @@
+@import './cards.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --r-green: 160deg 100% 37%;
+  }
+}
+
+*,
+*::before,
+*::after {
+  @apply relative;
+}
+
+body {
+  @apply min-h-screen bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:flex lg:place-items-center bg-no-repeat bg-fixed bg-cover px-16;
+
+  background-image: url('@/assets/images/background.jpg');
+  font-family: 'Bebas Neue', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  @apply mx-auto max-w-[1280px] pt-16 font-normal;
+}
+
+/* a,
+.green {
+  @apply text-primary transition-colors;
+}
+
+nav a:first-of-type {
+  @apply border-0;
+}
+
+@media (hover: hover) {
+  a:hover {
+    @apply bg-primary/20;
+  }
+} */

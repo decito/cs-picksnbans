@@ -1,0 +1,5 @@
+<template>
+  <AppHeader />
+
+  <MapsContainer />
+</template>
