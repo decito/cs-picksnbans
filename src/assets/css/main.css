@@ -18,7 +18,7 @@
 }
 
 body {
-  @apply min-h-screen bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:flex lg:place-items-center bg-no-repeat bg-fixed bg-cover px-16;
+  @apply min-h-screen bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:flex lg:place-items-center bg-no-repeat bg-fixed bg-cover p-16;
 
   background-image: url('@/assets/images/background.jpg');
   font-family: 'Bebas Neue', sans-serif;
@@ -28,7 +28,20 @@ body {
 }
 
 #app {
-  @apply mx-auto max-w-[1280px] pt-16 font-normal;
+  @apply mx-auto max-w-[1280px] font-normal;
+}
+
+input {
+  @apply bg-green-500/30;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-3xl pb-2;
+  text-shadow: 1px 1px black;
 }
 
 /* a,
