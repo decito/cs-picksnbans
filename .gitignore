@@ -30,3 +30,4 @@ coverage
 # Auto import files
 auto-imports.d.ts
 components.d.ts
+.vercel
