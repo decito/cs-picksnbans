@@ -1,7 +1,7 @@
-import { defineStore } from 'pinia'
-import { Map } from '@/types'
-
 import { useTeamStore } from '@/stores/teams'
+import type { Map } from '@/types'
+import { defineStore } from 'pinia'
+import { reactive, ref } from 'vue'
 
 export const useMapStore = defineStore('maps', () => {
   const teams = useTeamStore()

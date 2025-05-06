@@ -6,7 +6,6 @@ const maps = useMapStore()
 
 const vetoMap = (i: number) => {
   if (maps.mapList[i].vetted) return
-
   maps.markVetted(i)
 }
 </script>
