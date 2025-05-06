@@ -17,7 +17,7 @@ export const useMapStore = defineStore('maps', () => {
     { id: 'dust2', name: 'Dust 2', vetted: false, picked: false },
     { id: 'vertigo', name: 'Vertigo', vetted: false, picked: false },
     { id: 'anubis', name: 'Anubis', vetted: false, picked: false },
-    { id: 'ancient', name: 'Ancient', vetted: false, picked: false },
+    { id: 'ancient', name: 'Ancient', vetted: false, picked: false }
   ])
 
   const pickedMapName = ref('')
