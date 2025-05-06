@@ -13,6 +13,7 @@ dist
 dist-ssr
 coverage
 *.local
+todo.md
 
 /cypress/videos/
 /cypress/screenshots/
@@ -28,6 +29,4 @@ coverage
 *.sw?
 
 # Auto import files
-auto-imports.d.ts
-components.d.ts
 .vercel
