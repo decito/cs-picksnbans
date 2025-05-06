@@ -1,9 +1,6 @@
-@import './cards.css';
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap') layer(base);
+@import 'tailwindcss';
+@import './cards.css' layer(base);
 
 @layer base {
   :root {
@@ -18,7 +15,7 @@
 }
 
 body {
-  @apply bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:flex lg:place-items-center bg-no-repeat bg-fixed bg-cover py-16;
+  @apply bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:place-items-center bg-no-repeat bg-fixed bg-cover py-16;
 
   background-image: url('@/assets/images/background.jpg');
   font-family: 'Bebas Neue', sans-serif;

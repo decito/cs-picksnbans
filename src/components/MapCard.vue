@@ -8,19 +8,14 @@ defineProps<{
 </script>
 
 <template>
-  <div
-    class="card transition-all"
-    :class="[`de_${id}`, vetted && 'vetted', picked && 'picked']"
-  >
+  <div class="card transition-all" :class="[`de_${id}`, vetted && 'vetted', picked && 'picked']">
     <div class="banner">
       {{ vetted ? 'Vetado' : picked ? 'Escolhido' : 'Banir' }}
     </div>
-
     <div class="icon">
       <i v-if="picked" class="fas fa-check"></i>
       <i v-else class="fas fa-times"></i>
     </div>
-
     <div class="bottom-0 left-1/2 absolute -translate-x-1/2 w-full text-center">
       <h2>{{ name }}</h2>
     </div>
