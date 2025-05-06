@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: 'hsl(var(--r-green) / <alpha-value>)',
-      },
-    },
-  },
+        primary: 'hsl(var(--r-green) / <alpha-value>)'
+      }
+    }
+  }
 }
