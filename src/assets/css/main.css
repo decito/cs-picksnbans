@@ -2,10 +2,16 @@
 @import 'tailwindcss';
 @import './cards.css' layer(base);
 
-@layer base {
-  :root {
-    --r-green: 160deg 100% 37%;
-  }
+:root {
+  --r-green: hsl(160 100% 37%);
+}
+
+@theme inline {
+  --color-primary: var(--r-green);
+  --background-image-body: url('@/assets/images/background.jpg');
+  --font-sans:
+    'Bebas Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 *,
@@ -15,17 +21,11 @@
 }
 
 body {
-  @apply bg-slate-700 leading-relaxed text-white transition-colors duration-500 lg:place-items-center bg-no-repeat bg-fixed bg-cover py-16;
-
-  background-image: url('@/assets/images/background.jpg');
-  font-family: 'Bebas Neue', sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply bg-body bg-cover bg-fixed bg-center bg-no-repeat py-16 leading-relaxed text-white transition-colors duration-500 lg:place-items-center;
 }
 
 #app {
-  @apply mx-auto max-w-[1280px] font-normal px-16;
+  @apply mx-auto max-w-[1280px] px-16 font-normal;
 }
 
 input {
@@ -37,21 +37,5 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl pb-2;
-  text-shadow: 1px 1px black;
+  @apply pb-2 text-3xl text-shadow-[1px_1px_10px_black];
 }
-
-/* a,
-.green {
-  @apply text-primary transition-colors;
-}
-
-nav a:first-of-type {
-  @apply border-0;
-}
-
-@media (hover: hover) {
-  a:hover {
-    @apply bg-primary/20;
-  }
-} */

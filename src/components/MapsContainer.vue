@@ -12,7 +12,7 @@ const vetoMap = (i: number) => {
 
 <template>
   <div
-    class="grid pt-10 grid-rows-2 gap-8 max-w-7xl grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
+    class="grid max-w-7xl grid-cols-1 grid-rows-2 gap-8 pt-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5"
   >
     <MapCard
       v-for="(map, i) in maps.mapList"

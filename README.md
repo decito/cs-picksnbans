@@ -10,4 +10,8 @@ Live version [here](https://cspicksbans.vercel.app/).
 
 ## About
 
-This project was developed in March, 2023, in partnership with [Gabriel "Falllen" Toledo](https://twitter.com/FalleNCS) and [Trybe School](https://twitter.com/betrybe).
+This project was developed in March, 2023, in partnership with [Gabriel "Fallen" Toledo](https://www.instagram.com/fallen) and Trybe School.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/decito/cspicksbans/blob/main/LICENSE) file for details.
